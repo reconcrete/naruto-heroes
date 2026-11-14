@@ -1,0 +1,202 @@
+{
+	"core:creatureGeneratorCommon": {
+		"types": {
+			"ninjaAcademy": {
+				"name": "Ninja Academy",
+				"creatures": [
+					[
+						"academyStudent"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPPIKE"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/ninja-academy",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"inuzukaKennels": {
+				"name": "Inuzuka Kennels",
+				"creatures": [
+					[
+						"ninjaHound"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPDOG"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/inuzuka-kennels",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"hyugaCompound": {
+				"name": "Hyuga Compound",
+				"creatures": [
+					[
+						"hyugaGuard"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPMONK"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/hyuga-compound",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"medicalCorps": {
+				"name": "Medical Corps",
+				"creatures": [
+					[
+						"medicalNinja"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPELF"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/medical-corps",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"uchihaDistrict": {
+				"name": "Uchiha District",
+				"creatures": [
+					[
+						"uchihaPolice"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPMAGI"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/uchiha-district",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"anbuHeadquarters": {
+				"name": "ANBU Headquarters",
+				"creatures": [
+					[
+						"anbuOperative"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPDEAD"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/anbu-headquarters",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"mountMyobokuGate": {
+				"name": "Mount Myoboku Gate",
+				"creatures": [
+					[
+						"toadWarrior"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPBEHE"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/mount-myoboku-gate",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			}
+		}
+	}
+}

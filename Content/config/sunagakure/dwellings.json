@@ -1,0 +1,202 @@
+{
+	"core:creatureGeneratorCommon": {
+		"types": {
+			"desertBarracks": {
+				"name": "Desert Barracks",
+				"creatures": [
+					[
+						"sunaGenin"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPPIKE"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/desert-barracks",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"puppetWorkshop": {
+				"name": "Puppet Workshop",
+				"creatures": [
+					[
+						"woodenPuppet"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPGRIF"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/puppet-workshop",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"windTrainingCliffs": {
+				"name": "Wind Training Cliffs",
+				"creatures": [
+					[
+						"windKunoichi"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPORC"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/wind-training-cliffs",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"scorpionDunes": {
+				"name": "Scorpion Dunes",
+				"creatures": [
+					[
+						"desertScorpion"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPMANT"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/scorpion-dunes",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"redSecretPuppetHall": {
+				"name": "Red Secret Puppet Hall",
+				"creatures": [
+					[
+						"humanPuppet"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPMAGI"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/red-secret-puppet-hall",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"kamaitachiCanyon": {
+				"name": "Kamaitachi Canyon",
+				"creatures": [
+					[
+						"kamaitachi"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPBIRD"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/kamaitachi-canyon",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"sealedSandAltar": {
+				"name": "Sealed Sand Altar",
+				"creatures": [
+					[
+						"sandColossus"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPTITA"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/sealed-sand-altar",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			}
+		}
+	}
+}

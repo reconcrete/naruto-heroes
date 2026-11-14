@@ -1,0 +1,202 @@
+{
+	"core:creatureGeneratorCommon": {
+		"types": {
+			"mistAcademy": {
+				"name": "Mist Academy",
+				"creatures": [
+					[
+						"mistGenin"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPCAVE"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/mist-academy",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"hunterNinDivision": {
+				"name": "Hunter-nin Division",
+				"creatures": [
+					[
+						"hunterNin"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPARCH"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/hunter-nin-division",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"hozukiWaterPools": {
+				"name": "Hozuki Water Pools",
+				"creatures": [
+					[
+						"hozukiBrawler"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPORC"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/hozuki-water-pools",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"sharkReef": {
+				"name": "Shark Reef",
+				"creatures": [
+					[
+						"summonedShark"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPMONS"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/shark-reef",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"yukiClanIceHall": {
+				"name": "Yuki Clan Ice Hall",
+				"creatures": [
+					[
+						"yukiClanAdept"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPMEDU"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/yuki-clan-ice-hall",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"hallOfTheSevenSwordsmen": {
+				"name": "Hall of the Seven Swordsmen",
+				"creatures": [
+					[
+						"mistSwordsman"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPSWOR"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/hall-of-the-seven-swordsmen",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			},
+			"waterDragonLake": {
+				"name": "Water Dragon Lake",
+				"creatures": [
+					[
+						"waterDragon"
+					]
+				],
+				"sounds": {
+					"ambient": [
+						"LOOPDRAG"
+					]
+				},
+				"templates": {
+					"default": {
+						"animation": "naruto/map/dwellings/water-dragon-lake",
+						"mask": [
+							"VVVV",
+							"VVBB",
+							"VVAB"
+						],
+						"visitableFrom": [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			}
+		}
+	}
+}

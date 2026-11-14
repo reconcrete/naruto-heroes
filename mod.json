@@ -1,0 +1,108 @@
+{
+	"name": "Naruto Heroes",
+	"description": "Three hidden villages from Naruto as playable towns: Konohagakure, Sunagakure and Kirigakure, each with 14 shinobi creatures, its own heroes and heroes riding toads, scorpions, sharks and sand on the map; neutral ninja, four tailed-beast bosses, 43 artifacts with three Kage sets, a Naruto main menu, and three maps: the co-op story \"The Uzumaki Spiral\", the solo story \"Akatsuki's Shadow\" and the duel \"Naruto vs Sasuke\". English and Russian.",
+	"author": "Anton Morozov",
+	"contact": "https://github.com/reconcrete/naruto-heroes",
+	"licenseName": "CC BY-NC 4.0",
+	"licenseURL": "https://creativecommons.org/licenses/by-nc/4.0/",
+	"version": "1.2.0",
+	"modType": "Town",
+	"compatibility": {
+		"min": "1.7.0"
+	},
+	"changelog": {
+		"1.2.0": [
+			"New co-op story map \"Naruto: The Uzumaki Spiral\" for two allied players against the AI",
+			"The three maps ship inside the mod and appear in the scenario list",
+			"Map texts follow the game language (Russian map texts no longer fall back to English)"
+		],
+		"1.1.4": [
+			"Heroes ride Naruto mounts on the adventure map instead of the knight on a horse: Naruto on a toad (shinobi), Jiraiya on a toad (sage), Kankuro on a scorpion (puppeteer), Gaara on a sand cloud (wind sage), Zabuza on a shark (swordsman), Mei Terumi on a sea turtle (mist sage); they breathe while standing and hop while walking, flag in the player's colour"
+		],
+		"1.1.3": [
+			"Naruto main menu, loading screen and scenario-selection backgrounds; the menu buttons lose the red glow of the old background"
+		],
+		"1.1.2": [
+			"Monsters stand on the tile you click (they were drawn one tile to the right, so a guard could look hidden in the trees)",
+			"Shadow of the Akatsuki: Deidara guards the cave with his clay clones (four Akatsuki Members); map titles fit the scenario header"
+		],
+		"1.1.1": [
+			"Map towns and dwellings blend into the terrain (faded ground plates, shadows from the buildings only); a dwelling's drawn door is where a hero enters",
+			"Portraits of the ninja cat, ninja hound, Shukaku, Isobu, Gyuki and Gaara's sand tsunami show their heads",
+			"Maps: walls of trees and mountains only, so guarded passages read clearly; no tree or bush hides a monster"
+		],
+		"1.1.0": [
+			"Animated battle figures for 56 of the 57 creatures (all but Shukaku): idle, walk, attack, hit, defend, death and, for shooters, a throw or cast",
+			"Shots start from the animated figures' hands"
+		],
+		"1.0.0": [
+			"11 neutral creatures with their map lairs, and the tailed-beast bosses Shukaku, Isobu, Gyuki and Kurama",
+			"43 artifacts, including the Hokage, Kazekage and Mizukage sets that combine into Will of Fire, Sand Coffin and Bloody Mist",
+			"All art from the artist: battle and map sprites for every creature, projectiles, specialty icons, map towns and dwellings with owner flags",
+			"Balance checked against the original towns: creature stats, costs and growth, hero classes, building costs"
+		],
+		"0.4.0": [
+			"Sunagakure and Kirigakure towns: 28 creatures, 4 hero classes, 26 heroes, town screens from the artist"
+		],
+		"0.3.0": [
+			"Hero and creature portraits from the generated art",
+			"Static battle sprites for the Konohagakure creatures",
+			"Kurama, the first tailed-beast boss, with rendered animation"
+		],
+		"0.2.0": [
+			"Konohagakure town: 14 creatures, 2 hero classes, 25 heroes, borrowed original graphics"
+		],
+		"0.1.0": [
+			"Mod skeleton"
+		]
+	},
+	"russian": {
+		"name": "Герои Наруто",
+		"description": "Три скрытые деревни из «Наруто» как играбельные города: Коноха, Суна и Кири, в каждой 14 существ-шиноби, свои герои, а на карте герои верхом на жабах, скорпионах, акулах и песке; нейтральные ниндзя, четыре хвостатых зверя-босса, 43 артефакта с тремя сетами Каге, главное меню в стиле «Наруто» и три карты: кооперативная история «Спираль Узумаки», одиночная «Тень Акацуки» и дуэль «Наруто против Саске». Английский и русский.",
+		"translations": [
+			"config/translations/russian-konohagakure.json",
+			"config/translations/russian-neutral.json",
+			"config/translations/russian-sunagakure.json",
+			"config/translations/russian-kirigakure.json",
+			"config/translations/russian-artifacts.json",
+			"config/translations/maps/naruto-shadow-of-akatsuki-russian.json",
+			"config/translations/maps/naruto-uzumaki-spiral-russian.json",
+			"config/translations/maps/naruto-vs-sasuke-russian.json"
+		]
+	},
+	"factions": [
+		"config/konohagakure/faction.json",
+		"config/sunagakure/faction.json",
+		"config/kirigakure/faction.json"
+	],
+	"creatures": [
+		"config/konohagakure/creatures.json",
+		"config/neutral/creatures.json",
+		"config/sunagakure/creatures.json",
+		"config/kirigakure/creatures.json"
+	],
+	"heroClasses": [
+		"config/konohagakure/heroClasses.json",
+		"config/sunagakure/heroClasses.json",
+		"config/kirigakure/heroClasses.json"
+	],
+	"heroes": [
+		"config/konohagakure/heroes.json",
+		"config/sunagakure/heroes.json",
+		"config/kirigakure/heroes.json"
+	],
+	"objects": [
+		"config/konohagakure/dwellings.json",
+		"config/sunagakure/dwellings.json",
+		"config/kirigakure/dwellings.json",
+		"config/neutral/dwellings.json"
+	],
+	"artifacts": [
+		"config/artifacts/artifacts.json"
+	],
+	"translations": [
+		"config/translations/maps/naruto-shadow-of-akatsuki-english.json",
+		"config/translations/maps/naruto-uzumaki-spiral-english.json",
+		"config/translations/maps/naruto-vs-sasuke-english.json"
+	]
+}
